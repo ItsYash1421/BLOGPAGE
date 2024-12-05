@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .blog-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .blog-card:hover {
+            transform: scale(1.05);
+        }
+
+        .blog-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .blog-content {
+            padding: 15px;
+        }
+
+        .blog-content h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .blog-content p {
+            font-size: 1rem;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .blog-date {
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <p>Your daily dose of knowledge and inspiration</p>
+    </header>
+    <main>
+        <div class="blog-container">
+            <div class="blog-card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog 1" class="blog-image">
+                <div class="blog-content">
+                    <h2>Exploring the Wonders of Nature</h2>
+                    <p>Discover the beauty of the natural world through breathtaking landscapes, serene forests, and majestic mountains.</p>
+                    <span class="blog-date">December 1, 2024</span>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog 2" class="blog-image">
+                <div class="blog-content">
+                    <h2>Tech Trends 2024</h2>
+                    <p>Dive into the latest tech innovations shaping the future, including AI, blockchain, and sustainable technology.</p>
+                    <span class="blog-date">November 28, 2024</span>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog 3" class="blog-image">
+                <div class="blog-content">
+                    <h2>Mastering the Art of Cooking</h2>
+                    <p>Learn tips and tricks to create culinary masterpieces and enjoy the art of cooking like a pro.</p>
+                    <span class="blog-date">November 20, 2024</span>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog 4" class="blog-image">
+                <div class="blog-content">
+                    <h2>The Ultimate Travel Guide</h2>
+                    <p>Embark on an unforgettable journey with our top travel destinations and essential tips.</p>
+                    <span class="blog-date">November 15, 2024</span>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog 5" class="blog-image">
+                <div class="blog-content">
+                    <h2>Mindfulness for a Better Life</h2>
+                    <p>Explore how mindfulness can improve your mental health and bring peace to your everyday life.</p>
+                    <span class="blog-date">November 10, 2024</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
